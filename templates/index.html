@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+
+ <script >
+  var status= "{{status}}"
+  if (status){
+    alert(status);
+  }
+</script>
+<link rel="stylesheet" href="static/css/index.css">
+
+<body onload="statusAlert();" >
+  <div class="login-page">
+    <div class="form">
+
+      <form class="login-form"  action="/start" method="POST">
+      <table style="width: 700px">
+          <tr>
+            <td>        
+                <h1 align="center"> SOFTGEAR's Simple Quiz </h1>
+            </td>
+           </tr>
+      </table>
+      <table style="width: 700px">
+        <tr>
+            <td>
+                <p style="font-size: 90px; color: #43A047" align="center"> Simple Quiz</p>
+            </td>
+        </tr>    
+      </table>
+      <button>
+        Start the Quiz    
+      </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+<script src='static/js/jquery.min.js'></script>
+<script  src="static/js/index.js"></script>
+</html>
