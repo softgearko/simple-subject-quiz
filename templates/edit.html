@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Edit</title>
+</head>
+
+ <script >
+  var status= "{{status}}"
+  if (status){
+    alert(status);
+  }
+</script>
+<link rel="stylesheet" href="static/css/index.css">
+
+<body onload="statusAlert();" >
+  <div class="login-page">
+    <div class="form">
+    	<form class='login-form' action='/editsubmit' method='POST'>
+	    <textarea id='textarea1' name='textareadata' rows='20' cols='80'>
+{{ textareadata }}
+   	    </textarea>
+	    <br>
+	    <button>Submit</button>
+	</form>
+    </div>
+  </div>
+
+</body>
+<script src='static/js/jquery.min.js'></script>
+<script  src="static/js/index.js"></script>
+</html>

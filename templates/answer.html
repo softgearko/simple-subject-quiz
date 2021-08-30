@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>YRC - College of Engineering Guindy</title>
+    <title>Quiz</title>
 </head>
 
  <script >
@@ -23,9 +23,11 @@
           <input type="text" name="difficulty" hidden value="{{ difficulty }}" />
           <input type="text" name="attempted" hidden value=" {{ attempted }}">
           <input type="text" name="answer" hidden value=" {{ answer }}">
-	  {{ attempted }} ) {{ question }} <br><br> {{ answer }} <br><br>
+          <input type="text" name="ok" hidden value="{{ ok }}">
+	  {{ attempted }} ) {{ question }} <br><br> '{{ entered }}' / '{{ answer }}' <br><br>
+	  <B>{{ ok }}</B>
         </p>
-        <button>Next</button>
+        <button autofocus>Next</button>
       </form>
     </div>
   </div>
