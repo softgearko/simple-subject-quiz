@@ -10,4 +10,4 @@ Locate quiz.txt file which contains questions and answers. Each odd line is ques
 Install Flask for python and run python3 Quiz.py
 
 # Screenshot
-TBD
+![Screenshot of the Result](https://github.com/softgearko/simple-subject-quiz/blob/master/ssq-1.JPG)
