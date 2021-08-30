@@ -1,6 +1,7 @@
 # Simple Subject quiz
 A flask web app for hosting quiz. 
-You may use to remember words.
+You may use this to remember words.
+(This project refered to https://github.com/ItsSaravananRajendran/YRC-quiz )
 
 # Usage
 Locate quiz.txt file which contains questions and answers. odd line is question and even line is answer
